@@ -68,11 +68,65 @@ li {
   float: left;
   margin: 0;
 }
+.inspiration-list {
+  object-fit:scale-down;
+   list-style-type: none;
+  padding: 0;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 40px; 
+  margin: 40px auto;
+}
 
+.beer-list img {
+  width: 200px;
+  height: 300px;
+  object-fit:scale-down;
+  display: block;
+  margin-top: 10px;
+}
+.beer-list {
+  list-style: none;
+  padding: 0;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 40px; 
+  margin: 40px auto;
+}
 
+.beer-list li {
+  text-align: center;
+}
 
+.beer-list ul{
+  text-align: center;
+}
 
+.beer-list a {
+  text-decoration: none;
+  color: #2b1e1e;
+  font-weight: bold;
+  display: block;
+  margin-bottom: 10px;
+  transition: 0.2s ease;
+}
 
+.beer-list a:hover {
+  color: rgb(134, 38, 38);
+}
+
+.beer-list img {
+  object-fit: scale-down;
+  border-radius: 8px;
+  transition: transform 0.3s ease;
+}
+
+.beer-list img:hover {
+  transform: scale(1.05);
+}
+
+h2 {
+  text-align: center;
+}
 
 
 
